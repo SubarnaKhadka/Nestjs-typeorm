@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "webpack": true,
+    "assets": [
+      {
+        "include": "languages/**/**",
+        "watchAssets": true,
+        "outDir": "dist"
+      },
+      {
+        "include": "assets/**",
+        "watchAssets": true,
+        "outDir": "dist"
+      },
+      {
+        "include": "templates/**",
+        "watchAssets": true,
+        "outDir": "dist"
+      }
+    ]
+  }
+}

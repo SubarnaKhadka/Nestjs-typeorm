@@ -1,0 +1,8 @@
+{
+    "success":"Otp sent successfully",
+    "verifyOtp":"Verify auth otp success",
+    "error":{
+        "invalid":"Invalid otp",
+        "nullOtp":"Length must be greater than 0"
+    }
+}

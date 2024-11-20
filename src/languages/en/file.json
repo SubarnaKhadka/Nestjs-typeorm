@@ -1,0 +1,20 @@
+{
+  "imageUpload": "Image uploaded successfully",
+  "multipleImageUpload": "Images uploaded successfully",
+  "fileUpload": "File uploaded successfully",
+  "multipleFileUpload": "Files uploaded successfully",
+  "get":"File detail fetched",
+  "delete":"File deleted successfully",
+  "error": {
+    "notFound": "File not found",
+    "photoNotFound": "Cannot find photo",
+    "otherAssociated": "Cannot use other associated photo",
+    "deleteOtherAssociatedFile":"Cannot delete file which is associated to other entity",
+    "maxSize": "File size too big",
+    "maxFiles": "Files are to many",
+    "invalidFolder": "Invalid Folder",
+    "mimeInvalid": "File extension not valid",
+    "needExtractFirst": "Extract data needed",
+    "validationDto": "Import Data invalid"
+  }
+}
